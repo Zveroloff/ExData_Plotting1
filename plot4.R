@@ -43,7 +43,7 @@ plot(el.subset$Datetime,
      as.numeric(el.subset$Sub_metering_2),
      type = "l",
      ylab = "",
-     xlab = "", ylim = yrange, col = "orangered1")
+     xlab = "", ylim = yrange, col = "red")
 
 par(new = TRUE)
 
@@ -53,6 +53,7 @@ plot(el.subset$Datetime,
      ylab = "",
      xlab = "", ylim = yrange, col = "blue")
 
+colors = c("black", "red", "blue")
 legend("topright", names(el.subset[,6:8]), lty = 1, col = colors, cex = 0.5)
 
 # plot 4

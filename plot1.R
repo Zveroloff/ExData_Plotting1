@@ -14,4 +14,4 @@ el.subset <- electricity[lv, ]
 hist(as.numeric(el.subset$Global_active_power),
         main = "Global Active Power",
         xlab = "Global Active Power (kilowatts)",
-        col = "orangered1")
+        col = "red")
